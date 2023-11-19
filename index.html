@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="rotate-btn">
+            <p>KAYIT OL</p>
+            <label class="switch"> 
+                <input class="inp" type="checkbox">
+                <span class="switch-box"></span> 
+            </label>
+            <p>GİRİŞ YAP</p>
+        </div>
+        
+        <div class="kutu">
+            <div class="kayit">
+                <div class=" box" id="#kayitFormu">
+                    <h4 class="kayit-title">KAYIT OL</h4>
+                    <label class="fa-regular fa-user">
+                    <input class="inp" type="text" id="kullaniciAdi" placeholder="  Kullanıcı Adını Yaz" required>
+                </label>
+    
+                <label class="fa-solid fa-at" >
+                       <input class="inp" type="email" id="kmail" placeholder="  Mailini Yaz" required>
+                </label> 
+    
+                <label class="fa-solid fa-lock">
+                         <input class="inp" type="password"  id="ksifre" placeholder="  Şifreni Yaz" required>
+                </label>
+    
+                <label class="fa-solid fa-lock">
+                          <input class="inp" type="password" id="sifre2" placeholder="  Tekrar Şifreni Yaz" required >
+               </label> 
+    
+               <label>
+                    <button class="kayit-button button" type="submit">Kayıt Ol</button>      
+               </label>
+    
+                </div>
+            </div>
+            <div class="giris">
+                <div class=" box ">
+                    <h4 class="giris-title">GİRİŞ YAP</h4>
+                    <label  class="fa-solid fa-at">
+                         <input class="inp" type="email" id="gmail" placeholder="  Mailini Yaz" required>
+                  </label> 
+    
+                  <label class="fa-solid fa-lock">
+                     <input class="inp" type="password"  id="gşifre" placeholder="  Şifreni Yaz" required>
+                  </label>
+    
+                  <label>
+                    <button class="giris-button button"> Giriş Yap</button>
+                 
+                </label>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/c08fb4864b.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
